@@ -1,0 +1,1131 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Java 3x3 TTT",
+      "subtitle": "Learn the basics of a Java CLI app",
+      "language": "Java",
+      "description": "Write a basic 3x3 Tic-Tac-Toe in Java. It is enough to support a human and a computer player. Make sure that the computer can not be beaten.",
+      "outputs": [
+        "A basic 3x3 TTT",
+        "100% code coverage",
+        "Human vs Computer",
+        "If possible, unbeatable"
+      ],
+      "outcomes": [
+        "Basic understanding of static typing",
+        "Understand how a Java project is structured"
+      ],
+      "reading": [
+        "_Growing Object-Oriented Software Guided by Tests_ by Nat Pryce and Steve Freeman"
+      ],
+      "status": "current"
+    },
+    {
+      "id": 2,
+      "title": "Java 4x4 performance",
+      "subtitle": "Learn the basics of a Java CLI app",
+      "language": "Java",
+      "description": "Expand your previous TTT to support 4x4. Make sure to *keep performance in mind*. How fast does it need to be usable? Also, which changes were anticipated and which came through testing?",
+      "outputs": [
+        "A TTT that responds to all user input in less than 2sec.",
+        "A blog post detailing what bottlenecks were found and how...",
+        "...or a blogpost about which design changes were needed."
+      ],
+      "outcomes": [
+        "An understanding for design",
+        "How to use Java performance measurement tools and what to be on the lookout for."
+      ],
+      "status": "done"
+    },
+    {
+      "id": 3,
+      "title": "Java Echo Server",
+      "subtitle": "What are Sockets and why do they matter?",
+      "language": "Java",
+      "description": "Write a program that simply _echoes anything_ that is sent to it, essentially a parrot. Separately write a small client app, that takes input and displays the output from the server.",
+      "outputs": [
+        "A server app that will echo any message sent over a socket",
+        "A client app that will send its input to the server"
+      ],
+      "outcomes": [
+        "Understand sockets and how to separate your app from them"
+      ],
+      "status": "done"
+    },
+    {
+      "id": 4,
+      "title": "Java Chat server",
+      "subtitle": "Talking should be a fun exercise.",
+      "language": "Java",
+      "description": "Write a chat server",
+      "outputs": [
+        "A single app that can be started and connected to a second instance of itself",
+        "Both apps should be able to receive and display text like a regular chat"
+      ],
+      "outcomes": [
+        "Deeper understanding of Sockets for back and forth communication",
+        "AUndstand how to abstract away from IO"
+      ],
+      "status": "done"
+    },
+    {
+      "id": 5,
+      "title": "Java koans",
+      "subtitle": "Basic syntax of the language",
+      "language": "Java",
+      "description": "Learn and practice the fundamentals of Java's syntax and constructs",
+      "outputs": [
+        "All passing koans from https://github.com/matyb/java-koans",
+        "A blog post highlighting a different between Java and a previously known language"
+      ],
+      "outcomes": [
+        "Basic undstanding of the language's syntax and constructs (i.e classes, loops, interfaces etc)"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 6,
+      "title": "Java Guilded Rose",
+      "subtitle": "Practice Refactoring",
+      "language": "Java",
+      "description": "Carefully and methodically refactor the code found in the Guilded Rose kata by adding tests and simplifying the production code",
+      "outputs": [
+        "A repo with the refactored Guilded Rose",
+        "A blog post highlighting which SOLID principles your solution adheres to",
+        "A git history showing the refactoring-steps taken"
+      ],
+      "outcomes": [
+        "Understanding the practicality of the SOLID principles",
+        "An appreciation for refactoring techniques",
+        "An appreciation for a workflow that allows you to alwasy 'stay green'"
+      ],
+      "status": "todo"
+    },
+    {
+      "id": 7,
+      "title": "Java Video Store",
+      "subtitle": "Practice Refactoring",
+      "language": "Java",
+      "description": "Similar to the Guilded Rose kata, practice refactoring in small steps to improve the production code of a video store program",
+      "outputs": [
+        "A repo with the refactored Video Store code",
+        "A blog post highlighting which SOLID principles your solution adheres to",
+        "A git history showing the refactoring-steps taken"
+      ],
+      "outcomes": [
+        "Understanding the practicality of the SOLID principles",
+        "An appreciation for refactoring techniques",
+        "An appreciation for a workflow that allows you to alwasy 'stay green'"
+      ],
+      "status": "todo"
+    },
+    {
+      "id": 8,
+      "title": "Ruby 3x3 TTT",
+      "subtitle": "Learn the basics of a Ruby CLI app",
+      "language": "Ruby",
+      "description": "Write a basic 3x3 Tic-Tac-Toe in Ruby. It is enough to support a human and a computer player. Make sure that the computer can not be beaten.",
+      "outputs": [
+        "A basic 3x3 TTT",
+        "100% code coverage",
+        "Human vs Computer",
+        "If possible, unbeatable"
+      ],
+      "outcomes": [
+        "Basic understanding of dynamic languages",
+        "Understand how a Ruby project is structured"
+      ],
+      "reading": [
+        "_Growing Object-Oriented Software Guided by Tests_ by Nat Pryce and Steve Freeman"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 9,
+      "title": "Ruby 4x4 performance",
+      "subtitle": "Learn the basics of a Ruby CLI app",
+      "language": "Ruby",
+      "description": "Expand your previous TTT to support 4x4. Make sure to *keep performance in mind*. How fast does it need to be usable? Also, which changes were anticipated and which came through testing?",
+      "outputs": [
+        "A TTT that responds to all user input in less than 2sec.",
+        "A blog post detailing what bottlenecks were found and how...",
+        "...or a blogpost about which design changes were needed."
+      ],
+      "outcomes": [
+        "An understanding for design",
+        "How to use Ruby performance measurement tools and what to be on the lookout for."
+      ],
+      "status": "none"
+    },
+    {
+      "id": 10,
+      "title": "Ruby Echo Server",
+      "subtitle": "What are Sockets and why do they matter?",
+      "language": "Ruby",
+      "description": "Write a program that simply _echoes anything_ that is sent to it, essentially a parrot. Separately write a small client app, that takes input and displays the output from the server.",
+      "outputs": [
+        "A server app that will echo any message sent over a socket",
+        "A client app that will send its input to the server"
+      ],
+      "outcomes": [
+        "Understand sockets and how to separate your app from them"
+      ],
+      "status": "done"
+    },
+    {
+      "id": 11,
+      "title": "Ruby Chat server",
+      "subtitle": "Talking should be a fun exercise.",
+      "language": "Ruby",
+      "description": "Write a chat server",
+      "outputs": [
+        "A single app that can be started and connected to a second instance of itself",
+        "Both apps should be able to receive and display text like a regular chat"
+      ],
+      "outcomes": [
+        "Deeper understanding of Sockets for back and forth communication",
+        "AUndstand how to abstract away from IO"
+      ],
+      "status": "done"
+    },
+    {
+      "id": 12,
+      "title": "Ruby koans",
+      "subtitle": "Basic syntax of the language",
+      "language": "Ruby",
+      "description": "Learn and practice the fundamentals of Ruby's syntax and constructs",
+      "outputs": [
+        "All passing koans from https://github.com/matyb/java-koans",
+        "A blog post highlighting a different between Ruby and a previously known language"
+      ],
+      "outcomes": [
+        "Basic undstanding of the language's syntax and constructs (i.e classes, loops, interfaces etc)"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 13,
+      "title": "Ruby Guilded Rose",
+      "subtitle": "Practice Refactoring",
+      "language": "Ruby",
+      "description": "Carefully and methodically refactor the code found in the Guilded Rose kata by adding tests and simplifying the production code",
+      "outputs": [
+        "A repo with the refactored Guilded Rose",
+        "A blog post highlighting which SOLID principles your solution adheres to",
+        "A git history showing the refactoring-steps taken"
+      ],
+      "outcomes": [
+        "Understanding the practicality of the SOLID principles",
+        "An appreciation for refactoring techniques",
+        "An appreciation for a workflow that allows you to alwasy 'stay green'"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 14,
+      "title": "Ruby Video Store",
+      "subtitle": "Practice Refactoring",
+      "language": "Ruby",
+      "description": "Similar to the Guilded Rose kata, practice refactoring in small steps to improve the production code of a video store program",
+      "outputs": [
+        "A repo with the refactored Video Store code",
+        "A blog post highlighting which SOLID principles your solution adheres to",
+        "A git history showing the refactoring-steps taken"
+      ],
+      "outcomes": [
+        "Understanding the practicality of the SOLID principles",
+        "An appreciation for refactoring techniques",
+        "An appreciation for a workflow that allows you to alwasy 'stay green'"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 15,
+      "title": "Clojure 3x3 TTT",
+      "subtitle": "Learn the basics of a Clojure CLI app",
+      "language": "Clojure",
+      "description": "Write a basic 3x3 Tic-Tac-Toe in Clojure. It is enough to support a human and a computer player. Make sure that the computer can not be beaten.",
+      "outputs": [
+        "A basic 3x3 TTT",
+        "100% code coverage",
+        "Human vs Computer",
+        "If possible, unbeatable"
+      ],
+      "outcomes": [
+        "Basic understanding of functional dynamic languages",
+        "Understand how a Clojure project is structured"
+      ],
+      "reading": [
+        "_Growing Object-Oriented Software Guided by Tests_ by Nat Pryce and Steve Freeman"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 16,
+      "title": "Clojure 4x4 performance",
+      "subtitle": "Learn the basics of a Clojure CLI app",
+      "language": "Clojure",
+      "description": "Expand your previous TTT to support 4x4. Make sure to *keep performance in mind*. How fast does it need to be usable? Also, which changes were anticipated and which came through testing?",
+      "outputs": [
+        "A TTT that responds to all user input in less than 2sec.",
+        "A blog post detailing what bottlenecks were found and how...",
+        "...or a blogpost about which design changes were needed."
+      ],
+      "outcomes": [
+        "An understanding for design",
+        "How to use Clojure performance measurement tools and what to be on the lookout for."
+      ],
+      "status": "none"
+    },
+    {
+      "id": 17,
+      "title": "Clojure Echo Server",
+      "subtitle": "What are Sockets and why do they matter?",
+      "language": "Clojure",
+      "description": "Write a program that simply _echoes anything_ that is sent to it, essentially a parrot. Separately write a small client app, that takes input and displays the output from the server.",
+      "outputs": [
+        "A server app that will echo any message sent over a socket",
+        "A client app that will send its input to the server"
+      ],
+      "outcomes": [
+        "Understand sockets and how to separate your app from them"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 18,
+      "title": "Clojure Chat server",
+      "subtitle": "Talking should be a fun exercise.",
+      "language": "Clojure",
+      "description": "Write a chat server",
+      "outputs": [
+        "A single app that can be started and connected to a second instance of itself",
+        "Both apps should be able to receive and display text like a regular chat"
+      ],
+      "outcomes": [
+        "Deeper understanding of Sockets for back and forth communication",
+        "AUndstand how to abstract away from IO"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 19,
+      "title": "Clojure koans",
+      "subtitle": "Basic syntax of the language",
+      "language": "Clojure",
+      "description": "Learn and practice the fundamentals of Clojure's syntax and constructs",
+      "outputs": [
+        "All passing koans from https://github.com/matyb/java-koans",
+        "A blog post highlighting a different between Clojure and a previously known language"
+      ],
+      "outcomes": [
+        "Basic undstanding of the language's syntax and constructs (i.e classes, loops, interfaces etc)"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 20,
+      "title": "Clojure Guilded Rose",
+      "subtitle": "Practice Refactoring",
+      "language": "Clojure",
+      "description": "Carefully and methodically refactor the code found in the Guilded Rose kata by adding tests and simplifying the production code",
+      "outputs": [
+        "A repo with the refactored Guilded Rose",
+        "A blog post highlighting which SOLID principles your solution adheres to",
+        "A git history showing the refactoring-steps taken"
+      ],
+      "outcomes": [
+        "Understanding the practicality of the SOLID principles",
+        "An appreciation for refactoring techniques",
+        "An appreciation for a workflow that allows you to alwasy 'stay green'"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 21,
+      "title": "Clojure Video Store",
+      "subtitle": "Practice Refactoring",
+      "language": "Clojure",
+      "description": "Similar to the Guilded Rose kata, practice refactoring in small steps to improve the production code of a video store program",
+      "outputs": [
+        "A repo with the refactored Video Store code",
+        "A blog post highlighting which SOLID principles your solution adheres to",
+        "A git history showing the refactoring-steps taken"
+      ],
+      "outcomes": [
+        "Understanding the practicality of the SOLID principles",
+        "An appreciation for refactoring techniques",
+        "An appreciation for a workflow that allows you to alwasy 'stay green'"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 22,
+      "title": "Javascript 3x3 TTT",
+      "subtitle": "Learn the basics of a Javascript CLI app",
+      "language": "Javascript",
+      "description": "Write a basic 3x3 Tic-Tac-Toe in Javascript. It is enough to support a human and a computer player. Make sure that the computer can not be beaten.",
+      "outputs": [
+        "A basic 3x3 TTT",
+        "100% code coverage",
+        "Human vs Computer",
+        "If possible, unbeatable"
+      ],
+      "outcomes": [
+        "Understand how a Javascript project is structured"
+      ],
+      "reading": [
+        "_Growing Object-Oriented Software Guided by Tests_ by Nat Pryce and Steve Freeman"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 23,
+      "title": "Javascript 4x4 performance",
+      "subtitle": "Learn the basics of a Javascript CLI app",
+      "language": "Javascript",
+      "description": "Expand your previous TTT to support 4x4. Make sure to *keep performance in mind*. How fast does it need to be usable? Also, which changes were anticipated and which came through testing?",
+      "outputs": [
+        "A TTT that responds to all user input in less than 2sec.",
+        "A blog post detailing what bottlenecks were found and how...",
+        "...or a blogpost about which design changes were needed."
+      ],
+      "outcomes": [
+        "An understanding for design",
+        "How to use Javascript performance measurement tools and what to be on the lookout for."
+      ],
+      "status": "none"
+    },
+    {
+      "id": 24,
+      "title": "Javascript Echo Server",
+      "subtitle": "What are Sockets and why do they matter?",
+      "language": "Javascript",
+      "description": "Write a program that simply _echoes anything_ that is sent to it, essentially a parrot. Separately write a small client app, that takes input and displays the output from the server.",
+      "outputs": [
+        "A server app that will echo any message sent over a socket",
+        "A client app that will send its input to the server"
+      ],
+      "outcomes": [
+        "Understand sockets and how to separate your app from them"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 25,
+      "title": "Javascript Chat server",
+      "subtitle": "Talking should be a fun exercise.",
+      "language": "Javascript",
+      "description": "Write a chat server",
+      "outputs": [
+        "A single app that can be started and connected to a second instance of itself",
+        "Both apps should be able to receive and display text like a regular chat"
+      ],
+      "outcomes": [
+        "Deeper understanding of Sockets for back and forth communication",
+        "AUndstand how to abstract away from IO"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 26,
+      "title": "Javascript koans",
+      "subtitle": "Basic syntax of the language",
+      "language": "Javascript",
+      "description": "Learn and practice the fundamentals of Javascript's syntax and constructs",
+      "outputs": [
+        "All passing koans from https://github.com/matyb/java-koans",
+        "A blog post highlighting a different between Javascript and a previously known language"
+      ],
+      "outcomes": [
+        "Basic undstanding of the language's syntax and constructs (i.e classes, loops, interfaces etc)"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 27,
+      "title": "Javascript Guilded Rose",
+      "subtitle": "Practice Refactoring",
+      "language": "Javascript",
+      "description": "Carefully and methodically refactor the code found in the Guilded Rose kata by adding tests and simplifying the production code",
+      "outputs": [
+        "A repo with the refactored Guilded Rose",
+        "A blog post highlighting which SOLID principles your solution adheres to",
+        "A git history showing the refactoring-steps taken"
+      ],
+      "outcomes": [
+        "Understanding the practicality of the SOLID principles",
+        "An appreciation for refactoring techniques",
+        "An appreciation for a workflow that allows you to alwasy 'stay green'"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 28,
+      "title": "Javascript Video Store",
+      "subtitle": "Practice Refactoring",
+      "language": "Javascript",
+      "description": "Similar to the Guilded Rose kata, practice refactoring in small steps to improve the production code of a video store program",
+      "outputs": [
+        "A repo with the refactored Video Store code",
+        "A blog post highlighting which SOLID principles your solution adheres to",
+        "A git history showing the refactoring-steps taken"
+      ],
+      "outcomes": [
+        "Understanding the practicality of the SOLID principles",
+        "An appreciation for refactoring techniques",
+        "An appreciation for a workflow that allows you to alwasy 'stay green'"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 29,
+      "title": "Elixir 3x3 TTT",
+      "subtitle": "Learn the basics of a Elixir CLI app",
+      "language": "Elixir",
+      "description": "Write a basic 3x3 Tic-Tac-Toe in Elixir. It is enough to support a human and a computer player. Make sure that the computer can not be beaten.",
+      "outputs": [
+        "A basic 3x3 TTT",
+        "100% code coverage",
+        "Human vs Computer",
+        "If possible, unbeatable"
+      ],
+      "outcomes": [
+        "Basic understanding of functional dynamic languages",
+        "Understand how a Elixir project is structured"
+      ],
+      "reading": [
+        "_Growing Object-Oriented Software Guided by Tests_ by Nat Pryce and Steve Freeman"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 30,
+      "title": "Elixir 4x4 performance",
+      "subtitle": "Learn the basics of a Elixir CLI app",
+      "language": "Elixir",
+      "description": "Expand your previous TTT to support 4x4. Make sure to *keep performance in mind*. How fast does it need to be usable? Also, which changes were anticipated and which came through testing?",
+      "outputs": [
+        "A TTT that responds to all user input in less than 2sec.",
+        "A blog post detailing what bottlenecks were found and how...",
+        "...or a blogpost about which design changes were needed."
+      ],
+      "outcomes": [
+        "An understanding for design",
+        "How to use Elixir performance measurement tools and what to be on the lookout for."
+      ],
+      "status": "none"
+    },
+    {
+      "id": 31,
+      "title": "Elixir Echo Server",
+      "subtitle": "What are Sockets and why do they matter?",
+      "language": "Elixir",
+      "description": "Write a program that simply _echoes anything_ that is sent to it, essentially a parrot. Separately write a small client app, that takes input and displays the output from the server.",
+      "outputs": [
+        "A server app that will echo any message sent over a socket",
+        "A client app that will send its input to the server"
+      ],
+      "outcomes": [
+        "Understand sockets and how to separate your app from them"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 32,
+      "title": "Elixir Chat server",
+      "subtitle": "Talking should be a fun exercise.",
+      "language": "Elixir",
+      "description": "Write a chat server",
+      "outputs": [
+        "A single app that can be started and connected to a second instance of itself",
+        "Both apps should be able to receive and display text like a regular chat"
+      ],
+      "outcomes": [
+        "Deeper understanding of Sockets for back and forth communication",
+        "AUndstand how to abstract away from IO"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 33,
+      "title": "Elixir koans",
+      "subtitle": "Basic syntax of the language",
+      "language": "Elixir",
+      "description": "Learn and practice the fundamentals of Elixir's syntax and constructs",
+      "outputs": [
+        "All passing koans from https://github.com/matyb/java-koans",
+        "A blog post highlighting a different between Elixir and a previously known language"
+      ],
+      "outcomes": [
+        "Basic undstanding of the language's syntax and constructs (i.e classes, loops, interfaces etc)"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 34,
+      "title": "Elixir Guilded Rose",
+      "subtitle": "Practice Refactoring",
+      "language": "Elixir",
+      "description": "Carefully and methodically refactor the code found in the Guilded Rose kata by adding tests and simplifying the production code",
+      "outputs": [
+        "A repo with the refactored Guilded Rose",
+        "A blog post highlighting which SOLID principles your solution adheres to",
+        "A git history showing the refactoring-steps taken"
+      ],
+      "outcomes": [
+        "Understanding the practicality of the SOLID principles",
+        "An appreciation for refactoring techniques",
+        "An appreciation for a workflow that allows you to alwasy 'stay green'"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 35,
+      "title": "Elixir Video Store",
+      "subtitle": "Practice Refactoring",
+      "language": "Elixir",
+      "description": "Similar to the Guilded Rose kata, practice refactoring in small steps to improve the production code of a video store program",
+      "outputs": [
+        "A repo with the refactored Video Store code",
+        "A blog post highlighting which SOLID principles your solution adheres to",
+        "A git history showing the refactoring-steps taken"
+      ],
+      "outcomes": [
+        "Understanding the practicality of the SOLID principles",
+        "An appreciation for refactoring techniques",
+        "An appreciation for a workflow that allows you to alwasy 'stay green'"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 36,
+      "title": "Unbeatable Computer Player Lambda",
+      "subtitle": "Get started with AWS",
+      "language": "Any",
+      "description": "Get the best move via an API call",
+      "outputs": [
+        "Build an AWS Lambda that takes the board state and returns the best move",
+        "Get the best move via an API call"
+      ],
+      "outcomes": [
+        "Demonstrate basic understanding of AWS Lambda and API Gateway"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 37,
+      "title": "Pub/Sub Tic Tac Toe",
+      "subtitle": "Improve your AWS skills",
+      "language": "Any",
+      "description": "Improve AWS knowledge by creating a spectator Tic Tac Toe",
+      "outputs": [
+        "Update Tic Tac Toe to have Player and Subscriber user types",
+        "Player sends the board state after each move to AWS SQS",
+        "Subscriber gets the latest message from the queue via AWS SNS"
+      ],
+      "outcomes": [
+        "Demonstrate basic understanding of AWS SQS and SNS"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 38,
+      "title": "Java Hangman",
+      "subtitle": "Get exposure to Java",
+      "language": "Java",
+      "description": "Build your first Java app!",
+      "outputs": [
+        "Build a basic command line Hangman app",
+        "Make it playable by the user",
+        "Choose random words to play"
+      ],
+      "outcomes": [
+        "Working Java app",
+        "Use Maven or Gradle"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 39,
+      "title": "Java Word Wrap",
+      "subtitle": "Perform a kata in under 10 minutes",
+      "language": "Java",
+      "description": "Perform the word wrap kata in under 10 minutes",
+      "outputs": [
+        "Practice the word wrap kata",
+        "Practice Vim skills",
+        "Record with keystrokes"
+      ],
+      "outcomes": [
+        "Better Vim skills",
+        "Better Java skills"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 40,
+      "title": "Java Contact Manager",
+      "subtitle": "Duplicate your Smartphone's contact functionality",
+      "language": "Java",
+      "description": "Build an app to manage contact details",
+      "outputs": [
+        "Create, Read, Update, Delete records",
+        "Persist between sessions",
+        "Create a usable UI"
+      ],
+      "outcomes": [
+        "Exposure to writing to files and/or databases",
+        "Clean code"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 41,
+      "title": "Build a Ruby Gem",
+      "subtitle": "Extract Core Logic from Ruby Tic Tac Toe",
+      "language": "Ruby",
+      "description": "Build your very first Ruby gem, and use it in your CLI and Web games",
+      "outputs": [
+        "Extract core functionality",
+        "Build and publish a gem",
+        "Use your own gem in a playable app"
+      ],
+      "outcomes": [
+        "Exposure to open source",
+        "Exposure to Ruby gems"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 42,
+      "title": "Type out the money example in TDD by example",
+      "subtitle": "Learn to understand Java code and learn the syntax",
+      "language": "Java",
+      "description": "In Kent Beck's book 'TDD by example' is a chapter called 'The Money Example'. It demonstrates how he goes about test driving code.",
+      "outputs": [
+        "Learn to read Java code",
+        "Familiarise yourself with the Java syntax"
+      ],
+      "outcomes": [
+        "Basic understanding of static typing",
+        "Understand how a Java project is structured",
+        "Learn how to unit test randomness"
+      ],
+      "reading": [],
+      "status": "none"
+    },
+    {
+      "id": 43,
+      "title": "Ruby Contact Management System",
+      "subtitle": "ConMan - a Ruby CRUD application",
+      "language": "Ruby",
+      "description": "Practise writing a basic CRUD app with validations.",
+      "outputs": [
+        "A program that allows a user to add, view, edit and delete a contact",
+        "A contact should have a name, phone number, address, email address",
+        "Each input field should have validation and not allow wrong inputs"
+      ],
+      "outcomes": [
+        "Understanding the practicality of the SOLID principles",
+        "Understanding CRUD",
+        "Improving Ruby knowledge"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 44,
+      "title": "Java Rock, Paper, Scissors",
+      "subtitle": "Learn the basics of a Java CLI app",
+      "language": "Java",
+      "description": "The user should be able to play against a random computer. Keep a running score of how many times the user and computer won.",
+      "outputs": [
+        "Rock, Paper, Scissors game",
+        "100% code coverage",
+        "Human vs Random Computer"
+      ],
+      "outcomes": [
+        "Basic understanding of static typing",
+        "Understand how a Java project is structured",
+        "Learn how to unit test randomness"
+      ],
+      "reading": [],
+      "status": "none"
+    },
+    {
+      "id": 45,
+      "title": "Githug",
+      "subtitle": "Acquire more in-depth knowlege of git",
+      "language": "",
+      "description": "It's a bit like koans for git. Follow the instructions and solve the little riddles. https://github.com/Gazler/githug",
+      "outputs": [
+        "Finish all levels"
+      ],
+      "outcomes": [
+        "Advanced knowledge of git"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 46,
+      "title": "Ruby Rack Tic Tac Toe",
+      "subtitle": "Put your existing Tic Tac Toe on the web.",
+      "language": "Ruby",
+      "description": "Ideally the apprentice will have already written a Ruby Tic Tac Toe. That can be packaged up into a gem and then used in a Rack app.",
+      "outputs": [
+        "A web TTT that can be played."
+      ],
+      "outcomes": [
+        "Understanding how web applications work",
+        "Learning how Rack works",
+        "Unit testing when there's a framework in the mix - what to test",
+        "Unit testing a Rack application"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 47,
+      "title": "Ruby Sinatra Tic Tac Toe",
+      "subtitle": "Put your existing Tic Tac Toe on the web.",
+      "language": "Ruby",
+      "description": "Ideally the apprentice will have already written a Ruby Tic Tac Toe. That can be packaged up into a gem and then used in a Sinatra app.",
+      "outputs": [
+        "A web TTT that can be played."
+      ],
+      "outcomes": [
+        "Understanding how web applications work",
+        "Learning how Sinatra works",
+        "Unit testing when there's a framework in the mix - what to test",
+        "Unit testing a Sinatra application"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 48,
+      "title": "Deployed web Tic Tac Toe",
+      "subtitle": "Deploy your web application to Heroku",
+      "language": "any",
+      "description": "What use it a web Tic Tac Toe when it just runs on your local machine? Show it to the world!",
+      "outputs": [
+        "A web Tic Tac Toe that can be played."
+      ],
+      "outcomes": [
+        "Understanding how Heroku works",
+        "Basic devops understanding"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 49,
+      "title": "React front end for your web Tic Tac Toe",
+      "subtitle": "Learn React",
+      "language": "Javascript",
+      "description": "Remove your framework templates (e.g. erb templates) and build your frontend with React only. Decide which build tool and test framework to use and know your reasons.",
+      "outputs": [
+        "A web Tic Tac Toe with a React front end.",
+        "Using an appropriate build tool"
+      ],
+      "outcomes": [
+        "Learning React",
+        "Learning about Javascript build tools",
+        "Make technology decisions when there's a plethora of choice",
+        "Defend your technology decisions"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 50,
+      "title": "React single page application cookbook",
+      "subtitle": "Learn React and share some recipes",
+      "language": "Javascript",
+      "description": "Create an online cookbook with just one index.html.",
+      "outputs": [
+        "Only one html page allowed",
+        "Overview page with all recipes",
+        "Detail view page for each recipe",
+        "Recipes can be tagged and user can click on tag to only see certain recipes",
+        "Content comes from JSON file",
+        "Lorem Ipsum text is fine",
+        "Make it look pleasing to the user",
+        "Use SCSS for your styling"
+      ],
+      "outcomes": [
+        "Learning React",
+        "Learning about Javascript build tools",
+        "Understand what single page apps are and how to build them",
+        "Use React Router",
+        "Learn what SCSS is and how to transpile it"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 51,
+      "title": "React task manager app",
+      "subtitle": "Learn React and create a copy of Artisan",
+      "language": "Javascript",
+      "description": "Create an application that allows the user to add task cards into three columns, move them around, edit and delete them.",
+      "outputs": [
+        "User can add a card, enter a title and some to dos",
+        "User can delete a card",
+        "User can move the card into any of the columns",
+        "Bonus: user can add more columns",
+        "Bonus: user can choose colours for their cards",
+        "Use SCSS for your styling"
+      ],
+      "outcomes": [
+        "Learning React",
+        "Learning about Javascript build tools",
+        "Understand what single page apps are and how to build them",
+        "Learn what SCSS is and how to transpile it"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 52,
+      "title": "Vue.js task manager app",
+      "subtitle": "Learn Vue.js and create a copy of Artisan",
+      "language": "Javascript",
+      "description": "Create an application that allows the user to add task cards into three columns, move them around, edit and delete them.",
+      "outputs": [
+        "User can add a card, enter a title and some to dos",
+        "User can delete a card",
+        "User can move the card into any of the columns",
+        "Bonus: user can add more columns",
+        "Bonus: user can choose colours for their cards",
+        "Use SCSS for your styling"
+      ],
+      "outcomes": [
+        "Learning Vue.js",
+        "Learning about Javascript build tools",
+        "Understand what single page apps are and how to build them",
+        "Learn what SCSS is and how to transpile it"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 53,
+      "title": "Vue.js Instagram clone",
+      "subtitle": "Learn Vue.js and clone Instagram. Use AWS S3 to store your files.",
+      "language": "Javascript",
+      "description": "Create an application that allows a user to add upload a photo and add description.",
+      "outputs": [
+        "User can upload a photo",
+        "User can add a description to their photo",
+        "User can like any photo",
+        "User can comment on any photo",
+        "Make it look pretty using SCSS"
+      ],
+      "outcomes": [
+        "Learning Vue.js",
+        "Learning about Javascript build tools",
+        "Learn what SCSS is and how to transpile it",
+        "Learn about AWS"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 54,
+      "title": "React Instagram clone",
+      "subtitle": "Learn React and clone Instagram. Use AWS S3 to store your files.",
+      "language": "Javascript",
+      "description": "Create an application that allows a user to add upload a photo and add description.",
+      "outputs": [
+        "User can upload a photo",
+        "User can add a description to their photo",
+        "User can like any photo",
+        "User can comment on any photo",
+        "Make it look pretty using SCSS"
+      ],
+      "outcomes": [
+        "Learning React",
+        "Learning about Javascript build tools",
+        "Learn what SCSS is and how to transpile it",
+        "Learn about AWS"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 55,
+      "title": "Javascript Connect 4",
+      "subtitle": "Create a Connect 4 game with a computer player who wins whenever it can!",
+      "language": "Javascript",
+      "description": "Create a Connect 4 game which a user can play by clicking on the column they want to drop their coin into. The computer will then place the coin in a smart position.",
+      "outputs": [
+        "User can play by clicking on the column they want to drop the coin into",
+        "Computer should make smart moves and win whenever possible",
+        "Make it look pretty using SCSS",
+        "Use Vanilla Javascript",
+        "Research Javascript test frameworks and use the one you prefer"
+      ],
+      "outcomes": [
+        "Learning Javascript",
+        "Learning to use a Javascript test framework",
+        "Possibly learning about running your tests in headless browsers",
+        "Learn what SCSS is and how to transpile it"
+      ],
+      "status": "todo"
+    },
+    {
+      "id": 56,
+      "title": "Elixir Web Tic Tac Toe",
+      "subtitle": "Use the Phoenix framework to create a web Tic Tac Toe.",
+      "language": "Elixir",
+      "description": "Create an Elixir web Tic Tac Toe using Phoenix.",
+      "outputs": [
+        "User should be able to play the Tic Tac Toe by clicking on the cells they want to mark",
+        "Computer player should be unbeatable",
+        "Make it look pretty using CSS"
+      ],
+      "outcomes": [
+        "Learn to use Phoenix",
+        "Understand how web applications work",
+        "Bonus: deploy to heroku!"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 60,
+      "title": "Coin Changer Kata",
+      "subtitle": "Solve the coin changer kata and perform it in under 8 minutes.",
+      "language": "Any",
+      "description": "Perform or screen record your solution to the coin changer kata",
+      "outputs": [
+        "Your program should accept an amount of money and return the smallest denomination of coins for this amount",
+        "Example: 38 pence --> 20p, 10p, 5p, 2p, 1p",
+        "Perform your solution in under 10 minutes"
+      ],
+      "outcomes": [
+        "Improve vim skills",
+        "Improve typing skills",
+        "Learn how to deal with a stressful situation",
+        "Internalise certain refactorings",
+        "Increase confidence when presenting in front of people"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 64,
+      "title": "Roman Numerals Kata",
+      "subtitle": "Solve the roman numerals kata and perform it in under 7 minutes.",
+      "language": "Any",
+      "description": "Perform or screen record your solution to the roman numerals kata",
+      "outputs": [
+        "Your program should accept an arabic number and return the corresponding roman numeral",
+        "Example: 15 becomes XV",
+        "Perform your solution in under 7 minutes"
+      ],
+      "outcomes": [
+        "Improve vim skills",
+        "Improve typing skills",
+        "Internalise certain refactorings",
+        "Learn how to deal with a stressful situation",
+        "Increase confidence when presenting in front of people"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 68,
+      "title": "Word Wrap Kata",
+      "subtitle": "Solve the word wrap kata and perform it in under 10 minutes.",
+      "language": "Any",
+      "description": "Perform or screen record your solution to the word wrap kata",
+      "outputs": [
+        "Your program should accept a bit of text and a column width",
+        "It should return the text broken up into columns based on the wdith",
+        "Put a line break after each column",
+        "Do not chop up words",
+        "There should be no space at the beginning or end of a column",
+        "Perform your solution in under 10 minutes"
+      ],
+      "outcomes": [
+        "Improve vim skills",
+        "Improve typing skills",
+        "Internalise certain refactorings",
+        "Learn how to deal with a stressful situation",
+        "Increase confidence when presenting in front of people"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 72,
+      "title": "Berlin Clock Kata",
+      "subtitle": "Solve the Berlin clock kata and perform it in under 10 minutes.",
+      "language": "Any",
+      "description": "Perform or screen record your solution to the Berlin clock kata",
+      "outputs": [
+        "Instructions to the Berlin clock kata are [here](http://agilekatas.co.uk/katas/BerlinClock-Kata)",
+        "Perform your solution in under 10 minutes"
+      ],
+      "outcomes": [
+        "Improve vim skills",
+        "Improve typing skills",
+        "Internalise certain refactorings",
+        "Learn how to deal with a stressful situation",
+        "Increase confidence when presenting in front of people"
+      ],
+      "status": "none"
+    },
+    {
+      "id": 76,
+      "title": "Fizz Buzz Kata",
+      "subtitle": "Solve the Fizz Buzz kata and perform it in under 7 minutes.",
+      "language": "Any",
+      "description": "Perform or screen record your solution to the Fizz Buzz kata",
+      "outputs": [
+        "Your program should return the numbers from 1 - 100",
+        "Replace all numbers divisble by 3 with the word Fizz",
+        "Replace all numbers divisble by 5 with the word Buzz",
+        "Example: 15 will be FizzBuzz",
+        "Perform your solution in under 10 minutes"
+      ],
+      "outcomes": [
+        "Improve vim skills",
+        "Improve typing skills",
+        "Internalise refactoring steps",
+        "Learn how to deal with a stressful situation",
+        "Increase confidence when presenting in front of people"
+      ],
+      "status": "todo"
+    },
+    {
+      "id": 80,
+      "title": "Perform the Bowling Kata",
+      "subtitle": "Solve the Bowling kata and perform it in under 13 minutes.",
+      "language": "Any",
+      "description": "Perform or screen record your solution to the Bowling kata",
+      "outputs": [
+        "Code the rules of a bowling game",
+        "Instructions and rules can be found [here](http://kata-log.rocks/bowling-game-kata)",
+        "Perform your solution in under 13 minutes"
+      ],
+      "outcomes": [
+        "Improve vim skills",
+        "Improve typing skills",
+        "Internalise refactoring steps",
+        "Learn how to deal with a stressful situation",
+        "Increase confidence when presenting in front of people"
+      ],
+      "status": "todo"
+    },
+    {
+      "id": 84,
+      "title": "Conway's Game of Life",
+      "subtitle": "Solve the Conway's Game of Life kata.",
+      "language": "Any",
+      "description": "Solve the Conway's Game of Life kata",
+      "outputs": [
+        "A simple programm that followes the rules of _Conway's Game of Life_ as described on [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)",
+        "Bonus: create a visualisation of how the world changes in each generation"
+      ],
+      "outcomes": [
+        "Learn about tradoffs in design.",
+        "Learn about TDD"
+      ],
+      "reading": [
+        "_Understanding the Four Rules of Simple Design_ by Corey Haines"
+      ],
+      "status": "none"
+    }
+  ]
+}

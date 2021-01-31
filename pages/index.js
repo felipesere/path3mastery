@@ -1,8 +1,10 @@
-import {Box, Flex, Spinner, Text} from "@chakra-ui/react"
 import {useState, useEffect} from "react"
+import {promises as fs} from 'fs'
+import path from 'path'
+import {Lesson} from "../components/Lesson";
+import {Grid} from "@material-ui/core";
 
-
-export default function Home() {
+export default function Home({lessons}) {
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
@@ -10,32 +12,25 @@ export default function Home() {
     }, [])
 
     return (
-        <>
-            {loading && <SplashSpinner/>}
-            {!loading && <Navigation/>}
-        </>
+        <Grid container justify="center" spacing={4}>
+            {lessons.map((lesson) => {
+                return (
+                    <Grid item key={lesson.id}>
+                        <Lesson key={lesson.id} lesson={lesson}/>
+                    </Grid>
+                )
+            })}
+        </Grid>
     )
 }
 
-function Navigation() {
-    return ("Hi there")
-}
+export async function getStaticProps(context) {
+    const lessonsFile = path.join(process.cwd(), 'lessons.json')
+    const {lessons} = JSON.parse(await fs.readFile(lessonsFile, 'utf-8'))
 
-function SplashSpinner() {
-    return (
-        <Box
-            position="absolute"
-            left="50%"
-            top="50%"
-        >
-            <Flex
-                direction="column"
-                align="center"
-                transform="translateX(-50%) translateY(-50%)"
-            >
-                <Spinner size="xl" speed="0.75s"/>
-                <Text mt={4}>Loading lessons...</Text>
-            </Flex>
-        </Box>
-    )
+    return {
+        props: {
+            lessons
+        },
+    }
 }
