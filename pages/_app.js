@@ -1,44 +1,26 @@
 import '../styles/globals.css'
-import CssBaseline from "@material-ui/core/CssBaseline"
-import {AppBar, Button, Container, IconButton, Toolbar, Typography} from "@material-ui/core";
-import {makeStyles} from "@material-ui/core/styles";
-import MenuIcon from '@material-ui/icons/Menu';
-
-const useStyles = makeStyles((theme) => ({
-    root: {
-        flexGrow: 1,
-    },
-    bar: {
-        marginBottom: theme.spacing(2),
-    },
-    menuButton: {
-        marginRight: theme.spacing(2),
-    },
-    title: {
-        flexGrow: 1,
-    },
-}));
+import Head from "next/head";
+import Link from "next/link";
 
 function MyApp({Component, pageProps}) {
-    const classes = useStyles()
-
     return (
-        <CssBaseline>
-            <AppBar position="static" className={classes.bar}>
-                <Toolbar>
-                    <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                        <MenuIcon/>
-                    </IconButton>
-                    <Typography variant="h6" className={classes.title}>
-                        Path To Mastery
-                    </Typography>
-                    <Button color="inherit">Login</Button>
-                </Toolbar>
-            </AppBar>
-            <Container maxWidth="xl">
+        <>
+            <Head>
+                <title>Path 2 Mastery</title>
+                <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
+            </Head>
+            <nav>
+                <Link href="/">
+                    <a>Home</a>
+                </Link>
+                <Link href="/my-path">
+                    <a>My Path</a>
+                </Link>
+            </nav>
+            <main>
                 <Component {...pageProps} />
-            </Container>
-        </CssBaseline>
+            </main>
+        </>
     )
 }
 

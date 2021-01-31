@@ -1,26 +1,18 @@
-import {useState, useEffect} from "react"
 import {promises as fs} from 'fs'
 import path from 'path'
 import {Lesson} from "../components/Lesson";
-import {Grid} from "@material-ui/core";
+import Link from "next/link"
 
 export default function Home({lessons}) {
-    const [loading, setLoading] = useState(true)
-
-    useEffect(() => {
-        setTimeout(() => setLoading(false), 3000)
-    }, [])
-
     return (
-        <Grid container justify="center" spacing={4}>
-            {lessons.map((lesson) => {
-                return (
-                    <Grid item key={lesson.id}>
+        <ol>
+            {lessons.map((lesson) => (
+                    <li key={lesson.id}>
                         <Lesson key={lesson.id} lesson={lesson}/>
-                    </Grid>
+                    </li>
                 )
-            })}
-        </Grid>
+            )}
+        </ol>
     )
 }
 
